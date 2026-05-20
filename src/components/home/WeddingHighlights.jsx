@@ -27,7 +27,7 @@ const venues = [
     iconColor: 'text-teal-600 bg-teal-50',
   },
   {
-    name: 'Banquet Hall 1',
+    name: 'Banquet Hall',
     capacity: '500 Guests',
     size: 'Grand Hall',
     type: 'Indoor AC',
@@ -35,16 +35,6 @@ const venues = [
     desc: 'Elegantly designed air-conditioned banquet hall with premium décor and world-class facilities.',
     color: 'bg-gradient-to-br from-amber-50 to-orange-50 border-amber-200',
     iconColor: 'text-amber-600 bg-amber-50',
-  },
-  {
-    name: 'Banquet Hall 2',
-    capacity: '500 Guests',
-    size: 'Premium Hall',
-    type: 'Indoor AC',
-    icon: Building2,
-    desc: 'A versatile indoor venue perfect for wedding receptions, corporate gatherings, and gala dinners.',
-    color: 'bg-gradient-to-br from-saffron-50 to-gold-50 border-saffron-200',
-    iconColor: 'text-saffron-600 bg-saffron-50',
   },
 ];
 
@@ -71,21 +61,14 @@ export default function WeddingHighlights() {
               Your Dream Wedding,{' '}
               <span className="shimmer-text">Our Legacy</span>
             </h2>
-            <p className="text-resort-600 text-lg leading-relaxed mb-6">
-              At MPT Ayodhya Resort, we don't just host weddings — we craft lifelong memories.
-              With over 1.2 lakh square feet of stunning venues, from grand outdoor lawns
-              to intimate air-conditioned halls, your celebration will be nothing short of spectacular.
-            </p>
-            <p className="text-resort-500 leading-relaxed mb-8">
-              Our dedicated wedding specialists work with you to bring your vision to life —
-              from floral arrangements to world-class catering, every detail is handled
-              with the utmost care and professionalism.
+            <p className="text-resort-600 text-lg leading-relaxed mb-8">
+              Over 1.2 lakh sq ft of stunning venues — grand outdoor lawns to air-conditioned halls. Our wedding specialists handle every detail, from décor to catering.
             </p>
 
             <div className="space-y-3 mb-10">
               {[
                 '80,000 SqFt outdoor wedding lawn for 1000+ guests',
-                '2 Air-conditioned banquet halls, 500 capacity each',
+                '1 Air-conditioned banquet hall, 500 guest capacity',
                 'In-house catering with customized wedding menus',
                 'Professional decoration and event management',
                 '80+ luxury rooms for wedding guests',

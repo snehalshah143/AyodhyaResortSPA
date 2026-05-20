@@ -6,7 +6,7 @@ import { BedDouble, Users, Building2, TreePine, Car } from 'lucide-react';
 const stats = [
   { icon: BedDouble,  value: '80+',    label: 'Luxury Rooms',      desc: 'Premium accommodations' },
   { icon: Users,      value: '300+',   label: 'Guest Capacity',    desc: 'Accommodated comfortably' },
-  { icon: Building2,  value: '2',      label: 'Banquet Halls',     desc: '500 capacity each' },
+  { icon: Building2,  value: '1',      label: 'Banquet Hall',      desc: '500 guest capacity' },
   { icon: TreePine,   value: '80,000', label: 'SqFt Wedding Lawn', desc: 'For 1000+ guests' },
   { icon: TreePine,   value: '40,000', label: 'SqFt Event Lawn',   desc: 'For 500+ guests' },
   { icon: Car,        value: '500+',   label: 'Vehicle Parking',   desc: 'Ample space for all' },

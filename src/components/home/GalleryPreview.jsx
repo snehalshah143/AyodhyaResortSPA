@@ -6,9 +6,9 @@ import { useInView } from 'react-intersection-observer';
 import { Camera, ArrowRight } from 'lucide-react';
 
 const galleryItems = [
-  { id: 1, title: 'Grand Wedding Ceremony', category: 'Wedding',     src: 'https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=800&q=80', span: 'col-span-2 row-span-2' },
-  { id: 2, title: 'Luxury Suite',           category: 'Rooms',       src: 'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600&q=80', span: '' },
-  { id: 3, title: 'Infinity Pool',          category: 'Experiences', src: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=600&q=80', span: '' },
+  { id: 1, title: 'Grand Wedding Ceremony', category: 'Wedding',     src: 'https://images.unsplash.com/photo-1587271636175-90d58cdad458?w=800&q=80', span: 'col-span-2 row-span-2' },
+  { id: 2, title: 'Luxury Suite',           category: 'Rooms',       src: 'https://images.unsplash.com/photo-1761039265583-9489b4246454?w=600&q=80', span: '' },
+  { id: 3, title: 'Infinity Pool',          category: 'Experiences', src: 'https://images.unsplash.com/photo-1758448756167-88dc934c58e4?w=600&q=80', span: '' },
   { id: 4, title: 'Banquet Hall',           category: 'Events',      src: 'https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=900&q=80', span: 'col-span-2' },
   { id: 5, title: 'Garden Dining',          category: 'Dining',      src: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80', span: '' },
   { id: 6, title: 'Resort Exterior',        category: 'Resort',      src: '/images/resort-hero.png',                                                  span: '' },

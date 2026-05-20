@@ -14,9 +14,9 @@ const values = [
 ];
 
 const milestones = [
-  { year: '2015', title: 'Foundation Laid',   desc: 'MPT Ayodhya Resort began as a vision to create a world-class luxury destination in Madhya Pradesh.' },
+  { year: '2015', title: 'Foundation Laid',   desc: 'Ayodhya Resort began as a vision to create a world-class luxury destination in Madhya Pradesh.' },
   { year: '2017', title: 'Grand Opening',     desc: 'Resort opened its doors with 40 luxury rooms and the first banquet hall, welcoming its first guests.' },
-  { year: '2019', title: 'Expansion Phase',   desc: 'Added 40+ more rooms, second banquet hall, wedding lawn, and sports facilities.' },
+  { year: '2019', title: 'Expansion Phase',   desc: 'Added 40+ more rooms, wedding lawn, and sports facilities.' },
   { year: '2021', title: 'Dining Expansion',  desc: 'Launched Garden Restaurant, Food Court & Food Plaza, becoming a complete hospitality destination.' },
   { year: '2023', title: 'Recognition',       desc: 'Recognized as one of Madhya Pradesh\'s top luxury wedding destinations with 500+ weddings hosted.' },
   { year: '2024', title: 'Today',             desc: 'Continuing our journey of excellence with 80+ rooms, 4 restaurants, and world-class experiences.' },
@@ -31,14 +31,14 @@ export default function AboutPage() {
     <>
       {/* Hero */}
       <div className="relative h-[55vh] min-h-[400px] flex items-end overflow-hidden">
-        <Image src="/images/resort-hero.png" alt="MPT Ayodhya Resort" fill className="object-cover object-center" priority sizes="100vw" />
+        <Image src="/images/resort-hero.png" alt="Ayodhya Resort" fill className="object-cover object-center" priority sizes="100vw" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/30 to-transparent" />
         <div className="absolute top-0 left-0 right-0 h-1" style={{ background: 'linear-gradient(90deg,#FF8C00,#D4AF37,#FF8C00)' }} />
         <div className="relative z-10 container-luxury pb-16">
           <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
             <div className="section-label text-saffron-300 mb-3">Our Story</div>
             <h1 className="font-serif text-5xl md:text-6xl font-bold text-white leading-tight">
-              About MPT<br /><span className="shimmer-text">Ayodhya Resort</span>
+              About<br /><span className="shimmer-text">Ayodhya Resort</span>
             </h1>
           </motion.div>
         </div>
@@ -50,7 +50,7 @@ export default function AboutPage() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <motion.div initial={{ opacity: 0, x: -40 }} animate={storyInView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 0.8 }}>
               <div className="relative rounded-4xl overflow-hidden shadow-luxury-lg" style={{ aspectRatio: '4/5' }}>
-                <Image src="/images/resort-hero.png" alt="MPT Ayodhya Resort" fill className="object-cover object-top" sizes="(max-width: 1024px) 100vw, 50vw" quality={85} />
+                <Image src="/images/resort-hero.png" alt="Ayodhya Resort" fill className="object-cover object-top" sizes="(max-width: 1024px) 100vw, 50vw" quality={85} />
                 <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/70 to-transparent">
                   <div className="flex justify-between text-white">
                     {[['500+','Weddings'],['10K+','Happy Guests'],['9+','Years']].map(([v,l]) => (
@@ -68,9 +68,9 @@ export default function AboutPage() {
               <div className="section-label">Our Heritage</div>
               <h2 className="section-title mb-6">A Vision of Luxury{' '}<span className="shimmer-text">Brought to Life</span></h2>
               <div className="space-y-4 text-resort-600 leading-relaxed mb-8">
-                <p>MPT Ayodhya Resort was born from a singular vision: to create a world-class luxury destination that celebrates the rich cultural heritage of Madhya Pradesh while offering modern amenities that rival the finest resorts in the country.</p>
+                <p>Ayodhya Resort was born from a singular vision: to create a world-class luxury destination that celebrates the rich cultural heritage of Madhya Pradesh while offering modern amenities that rival the finest resorts in the country.</p>
                 <p>Situated along the scenic Burhanpur–Khandwa Road, our resort draws inspiration from the royal grandeur of Burhanpur's glorious past. Every corner of the property has been thoughtfully designed to evoke a sense of regal elegance.</p>
-                <p>Today, MPT Ayodhya Resort stands as one of Madhya Pradesh's premier luxury destinations — a place where families, couples, and corporate guests alike find their perfect retreat.</p>
+                <p>Today, Ayodhya Resort stands as one of Madhya Pradesh's premier luxury destinations — a place where families, couples, and corporate guests alike find their perfect retreat.</p>
               </div>
               <div className="flex items-center gap-4 mb-8">
                 <div className="flex items-center gap-1">

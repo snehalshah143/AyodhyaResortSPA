@@ -1,5 +1,5 @@
 export const RESORT = {
-  name: 'MPT Ayodhya Resort',
+  name: 'Ayodhya Resort',
   tagline: 'Where Luxury Meets Nature',
   description: 'A premier luxury destination resort nestled in Burhanpur, Madhya Pradesh, offering unmatched hospitality and world-class amenities.',
   phone: '+91 9632359042',
@@ -42,11 +42,11 @@ export const GALLERY_CATEGORIES = [
 ];
 
 export const WHATSAPP_MESSAGES = {
-  general:  'Hello! I would like to know more about MPT Ayodhya Resort.',
-  booking:  'Hello! I am interested in booking a room at MPT Ayodhya Resort. Please share availability and rates.',
-  wedding:  'Hello! I am interested in hosting a wedding at MPT Ayodhya Resort. Please share details.',
-  event:    'Hello! I would like to book an event venue at MPT Ayodhya Resort. Please share details.',
-  dining:   'Hello! I would like to know more about dining options at MPT Ayodhya Resort.',
+  general:  'Hello! I would like to know more about Ayodhya Resort.',
+  booking:  'Hello! I am interested in booking a room at Ayodhya Resort. Please share availability and rates.',
+  wedding:  'Hello! I am interested in hosting a wedding at Ayodhya Resort. Please share details.',
+  event:    'Hello! I would like to book an event venue at Ayodhya Resort. Please share details.',
+  dining:   'Hello! I would like to know more about dining options at Ayodhya Resort.',
 };
 
 export const TESTIMONIALS = [
@@ -56,7 +56,7 @@ export const TESTIMONIALS = [
     designation: 'Business Executive',
     location: 'Indore, MP',
     rating: 5,
-    review: 'An absolutely magnificent resort! We celebrated our daughter\'s wedding here and it was a dream come true. The lawns were breathtaking, the food was exceptional, and the staff went above and beyond. MPT Ayodhya Resort truly sets the gold standard.',
+    review: 'An absolutely magnificent resort! We celebrated our daughter\'s wedding here and it was a dream come true. The lawns were breathtaking, the food was exceptional, and the staff went above and beyond. Ayodhya Resort truly sets the gold standard.',
     stayType: 'Wedding',
   },
   {

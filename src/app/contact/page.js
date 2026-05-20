@@ -38,7 +38,7 @@ export default function ContactPage() {
   const { register, handleSubmit, formState: { errors, isSubmitting } } = useForm({ resolver: zodResolver(schema) });
 
   const onSubmit = (data) => {
-    const msg = `Hello! I have an inquiry for MPT Ayodhya Resort.
+    const msg = `Hello! I have an inquiry for Ayodhya Resort.
 
 Name: ${data.name}
 Email: ${data.email}
@@ -174,7 +174,7 @@ ${data.message}`;
             <div className="w-full h-full bg-gradient-to-br from-amber-100 to-orange-100 flex items-center justify-center">
               <div className="text-center">
                 <MapPin size={48} className="text-saffron-500 mx-auto mb-4" />
-                <p className="font-serif text-2xl font-semibold text-resort-800">MPT Ayodhya Resort</p>
+                <p className="font-serif text-2xl font-semibold text-resort-800">Ayodhya Resort</p>
                 <p className="text-resort-600 mt-1">Burhanpur – Khandwa Road, Burhanpur, MP</p>
                 <a href="https://maps.google.com/?q=Burhanpur+Khandwa+Road+Madhya+Pradesh" target="_blank" rel="noopener noreferrer" className="btn-primary mt-6 inline-flex">Open in Google Maps</a>
               </div>

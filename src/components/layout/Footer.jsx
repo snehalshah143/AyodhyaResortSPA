@@ -15,7 +15,7 @@ const footerLinks = {
   ],
   'Events & Weddings': [
     { href: '/weddings',           label: 'Destination Weddings' },
-    { href: '/weddings#banquet',   label: 'Banquet Halls' },
+    { href: '/weddings#banquet',   label: 'Banquet Hall' },
     { href: '/weddings#lawn',      label: 'Wedding Lawn' },
     { href: '/weddings#packages',  label: 'Event Packages' },
     { href: '/weddings#inquiry',   label: 'Request Quote' },
@@ -38,7 +38,7 @@ export default function Footer() {
                 M
               </div>
               <div>
-                <div className="font-serif font-bold text-xl text-white">MPT Ayodhya</div>
+                <div className="font-serif font-bold text-xl text-white">Ayodhya</div>
                 <div className="text-saffron-400 text-xs tracking-widest uppercase">Luxury Resort</div>
               </div>
             </Link>
@@ -134,7 +134,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-white/40 text-sm">
-            © {new Date().getFullYear()} MPT Ayodhya Resort. All rights reserved.
+            © {new Date().getFullYear()} Ayodhya Resort. All rights reserved.
           </p>
           <p className="text-white/30 text-xs flex items-center gap-1">
             Crafted with <Heart size={11} className="text-saffron-500 fill-saffron-500" /> for luxury hospitality

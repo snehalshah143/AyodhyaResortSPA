@@ -60,9 +60,10 @@ module.exports = {
         },
       },
       fontFamily: {
-        serif:   ['Playfair Display', 'Georgia', 'Times New Roman', 'serif'],
-        sans:    ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
-        display: ['Cormorant Garamond', 'Playfair Display', 'Georgia', 'serif'],
+        serif:   ['var(--font-playfair)', 'Georgia', 'Times New Roman', 'serif'],
+        sans:    ['var(--font-inter)', 'system-ui', '-apple-system', 'sans-serif'],
+        display: ['var(--font-playfair)', 'Georgia', 'serif'],
+        cinzel:  ['var(--font-cinzel)', 'Georgia', 'serif'],
       },
       backgroundImage: {
         'saffron-gradient': 'linear-gradient(135deg, #FF8C00 0%, #FFA040 50%, #FFB347 100%)',

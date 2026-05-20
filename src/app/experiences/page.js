@@ -9,36 +9,36 @@ import { getWhatsAppURL } from '@/lib/utils';
 const experiences = [
   {
     id: 'pool', name: 'Infinity Swimming Pool', category: 'Wellness & Recreation', icon: Waves,
-    image: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=900&q=85',
-    desc: 'Immerse yourself in our stunning infinity-style swimming pool, surrounded by lush tropical greenery. Whether you prefer leisurely laps at sunrise or a refreshing afternoon dip, our pool offers the perfect serene escape.',
+    image: 'https://images.unsplash.com/photo-1758448756167-88dc934c58e4?w=900&q=85',
+    desc: 'Stunning infinity pool surrounded by lush greenery. Perfect for a refreshing dip or a lazy afternoon by the poolside.',
     highlights: ['Crystal clear filtered water','Sun loungers & poolside service','Shaded resting areas','Safe shallow section for children','Lifeguard on duty','Towel & amenity service'],
     hours: '6:00 AM – 10:00 PM', capacity: '50 Guests', type: 'Wellness',
   },
   {
-    id: 'cricket', name: 'Professional Cricket Turf', category: 'Sports & Recreation', icon: Trophy,
-    image: 'https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=900&q=85',
-    desc: 'A professionally maintained cricket turf perfect for friendly matches, practice sessions, corporate tournaments, and coaching. The pitch meets professional standards with top-quality matting.',
-    highlights: ['Professional pitch matting','Full-size cricket ground','Batting & bowling nets','Floodlights for evening','Equipment available for rent','Corporate tournaments welcome'],
+    id: 'cricket', name: 'Box Cricket Turf', category: 'Sports & Recreation', icon: Trophy,
+    image: '/images/cricket-turf.webp',
+    desc: 'Enclosed box cricket court with premium artificial turf, full net surround, and floodlights — ideal for friendly matches, corporate tournaments, and group bookings.',
+    highlights: ['Enclosed net cage','Premium artificial turf','Floodlit for night play','Equipment on rent','Corporate bookings welcome','Umpire available'],
     hours: '6:00 AM – 8:00 PM', capacity: '22 Players', type: 'Sports',
   },
   {
-    id: 'football', name: 'FIFA-Standard Football Turf', category: 'Sports & Recreation', icon: Trophy,
-    image: 'https://images.unsplash.com/photo-1529900748604-07564a03e7a6?w=900&q=85',
-    desc: 'Our synthetic football turf meets FIFA standards with all-weather surface for year-round play. Floodlit for evening matches with changing rooms and professional goal posts.',
+    id: 'football', name: 'Football Turf', category: 'Sports & Recreation', icon: Trophy,
+    image: '/images/cricket-turf.webp',
+    desc: 'All-weather synthetic football turf with floodlights, goal posts, and changing rooms. Open year-round for matches and leagues.',
     highlights: ['FIFA-grade synthetic turf','Floodlit for night matches','Changing rooms & showers','Professional goal posts','Referee & equipment rental','Corporate leagues welcome'],
     hours: '6:00 AM – 10:00 PM', capacity: '22 Players', type: 'Sports',
   },
   {
     id: 'garden', name: 'Exotic Fruit Garden', category: 'Nature & Wellness', icon: Leaf,
     image: 'https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=900&q=85',
-    desc: 'Stroll through our enchanting fruit garden featuring a diverse collection of seasonal fruits. Take guided tours, learn about organic farming, and pluck fresh fruits directly from the trees.',
+    desc: 'Walk through our seasonal fruit garden, pluck fresh fruits off the trees, and enjoy guided organic farming tours.',
     highlights: ['Variety of exotic fruits','Guided orchard tours','Organic farming methods','Pick-your-own fruit','Photography opportunities','Educational nature walks'],
     hours: '7:00 AM – 6:00 PM', capacity: 'Unlimited', type: 'Nature',
   },
   {
     id: 'landscape', name: 'Lush Green Landscape', category: 'Nature & Relaxation', icon: Trees,
     image: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=900&q=85',
-    desc: 'Beautifully manicured gardens enveloping the entire resort. Perfect for morning walks, yoga sessions, romantic evening strolls, and nature photography throughout the property.',
+    desc: 'Manicured gardens across the resort — ideal for morning walks, yoga, evening strolls, and photography.',
     highlights: ['Manicured lawns & gardens','Walking & jogging paths','Yoga & meditation spots','Scenic photography spots','Bird watching areas',"Children's play zones"],
     hours: 'Always Open', capacity: 'All Guests', type: 'Nature',
   },
@@ -82,7 +82,7 @@ function ExperienceCard({ exp, index, inView }) {
               </div>
             ))}
           </div>
-          <a href={getWhatsAppURL('general', `Hello! I am interested in the ${exp.name} at MPT Ayodhya Resort.`)} target="_blank" rel="noopener noreferrer" className="btn-primary self-start">
+          <a href={getWhatsAppURL('general', `Hello! I am interested in the ${exp.name} at Ayodhya Resort.`)} target="_blank" rel="noopener noreferrer" className="btn-primary self-start">
             Inquire Now <ArrowRight size={16} />
           </a>
         </div>
@@ -97,7 +97,7 @@ export default function ExperiencesPage() {
   return (
     <>
       <div className="relative h-[60vh] min-h-[420px] flex items-end overflow-hidden">
-        <Image src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1920&q=90" alt="Experiences at MPT Ayodhya Resort" fill className="object-cover object-center" priority sizes="100vw" />
+        <Image src="https://images.unsplash.com/photo-1758448756167-88dc934c58e4?w=1920&q=90" alt="Experiences at Ayodhya Resort" fill className="object-cover object-center" priority sizes="100vw" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/30 to-transparent" />
         <div className="absolute top-0 left-0 right-0 h-1" style={{ background: 'linear-gradient(90deg,#FF8C00,#D4AF37,#FF8C00)' }} />
         <div className="relative z-10 container-luxury pb-16">

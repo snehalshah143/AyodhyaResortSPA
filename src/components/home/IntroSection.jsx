@@ -28,7 +28,7 @@ export default function IntroSection() {
             <div className="relative rounded-4xl overflow-hidden shadow-luxury-lg" style={{ aspectRatio: '4/5', maxHeight: 600 }}>
               <Image
                 src="/images/resort-hero.png"
-                alt="MPT Ayodhya Resort — Luxury Destination"
+                alt="Ayodhya Resort — Luxury Destination"
                 fill
                 className="object-cover object-top"
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -64,7 +64,7 @@ export default function IntroSection() {
           >
             <div className="section-label">
               <span className="w-8 h-0.5 rounded-full bg-saffron-gradient" />
-              Welcome to MPT Ayodhya Resort
+              Welcome to Ayodhya Resort
             </div>
 
             <h2 className="section-title mb-6">
@@ -72,14 +72,8 @@ export default function IntroSection() {
               <span className="shimmer-text">No Other</span>
             </h2>
 
-            <p className="text-resort-600 text-lg leading-relaxed mb-5">
-              Nestled along the scenic Burhanpur–Khandwa Road, MPT Ayodhya Resort is Madhya Pradesh's
-              premier luxury destination — where timeless elegance meets modern comfort.
-            </p>
-            <p className="text-resort-500 leading-relaxed mb-10">
-              From grand destination weddings on our breathtaking 80,000 SqFt lawn to intimate family
-              retreats, corporate events, and romantic getaways — every experience is crafted with
-              meticulous attention to detail.
+            <p className="text-resort-600 text-lg leading-relaxed mb-10">
+              Nestled on Burhanpur–Khandwa Road, MP — a luxury destination offering grand weddings, family retreats, corporate events, and romantic getaways, all crafted with exceptional care.
             </p>
 
             <div className="grid grid-cols-2 gap-4 mb-10">

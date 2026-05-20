@@ -7,20 +7,20 @@ import { Camera, X, ChevronLeft, ChevronRight, ZoomIn } from 'lucide-react';
 import { GALLERY_CATEGORIES } from '@/lib/constants';
 
 const galleryData = [
-  { id: 1,  title: 'Grand Wedding Ceremony',  category: 'WEDDING',     src: 'https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=900&q=80',  span: 'lg:col-span-2 lg:row-span-2' },
-  { id: 2,  title: 'Poolside Luxury',          category: 'EXPERIENCES', src: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=600&q=80',  span: '' },
-  { id: 3,  title: 'Royal Garden Suite',       category: 'ROOMS',       src: 'https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=600&q=80',  span: '' },
+  { id: 1,  title: 'Grand Wedding Ceremony',  category: 'WEDDING',     src: 'https://images.unsplash.com/photo-1587271636175-90d58cdad458?w=900&q=80',  span: 'lg:col-span-2 lg:row-span-2' },
+  { id: 2,  title: 'Poolside Luxury',          category: 'EXPERIENCES', src: 'https://images.unsplash.com/photo-1758448756167-88dc934c58e4?w=600&q=80',  span: '' },
+  { id: 3,  title: 'Royal Garden Suite',       category: 'ROOMS',       src: 'https://images.unsplash.com/photo-1746549855427-57e6da7040db?w=600&q=80',  span: '' },
   { id: 4,  title: 'Banquet Hall Decoration',  category: 'EVENTS',      src: 'https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=900&q=80',  span: 'lg:col-span-2' },
   { id: 5,  title: 'Garden Restaurant Night',  category: 'DINING',      src: 'https://images.unsplash.com/photo-1559339352-11d035aa65de?w=600&q=80',  span: '' },
   { id: 6,  title: 'Resort Exterior',          category: 'EXTERIOR',    src: '/images/resort-hero.png',                                                   span: '' },
-  { id: 7,  title: 'Sangeet Celebration',      category: 'WEDDING',     src: 'https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=600&q=80',  span: '' },
-  { id: 8,  title: 'Cricket Tournament',       category: 'EXPERIENCES', src: 'https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=600&q=80',  span: '' },
-  { id: 9,  title: 'Deluxe Room Interior',     category: 'ROOMS',       src: 'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600&q=80',  span: '' },
-  { id: 10, title: 'Wedding Reception',        category: 'WEDDING',     src: 'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=900&q=80',  span: 'lg:col-span-2' },
+  { id: 7,  title: 'Sangeet Celebration',      category: 'WEDDING',     src: 'https://images.unsplash.com/photo-1754782915842-aa4fca6c203a?w=600&q=80',  span: '' },
+  { id: 8,  title: 'Box Cricket Turf',          category: 'EXPERIENCES', src: '/images/cricket-turf.webp',                                                  span: '' },
+  { id: 9,  title: 'Deluxe Room Interior',     category: 'ROOMS',       src: 'https://images.unsplash.com/photo-1761039265583-9489b4246454?w=600&q=80',  span: '' },
+  { id: 10, title: 'Wedding Reception',        category: 'WEDDING',     src: 'https://images.unsplash.com/photo-1756190564669-215843660e93?w=900&q=80',  span: 'lg:col-span-2' },
   { id: 11, title: 'AC Restaurant Dining',     category: 'DINING',      src: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80',  span: '' },
   { id: 12, title: 'Event Lawn Setup',         category: 'EVENTS',      src: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=600&q=80',  span: '' },
   { id: 13, title: 'Fruit Garden Walk',        category: 'EXPERIENCES', src: 'https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=600&q=80',  span: '' },
-  { id: 14, title: 'Presidential Suite',       category: 'ROOMS',       src: 'https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=600&q=80',  span: '' },
+  { id: 14, title: 'Presidential Suite',       category: 'ROOMS',       src: 'https://images.unsplash.com/photo-1702014861736-d62834317c5e?w=600&q=80',  span: '' },
   { id: 15, title: 'Night Wedding Ceremony',   category: 'WEDDING',     src: 'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=900&q=80',  span: 'lg:col-span-2 lg:row-span-2' },
   { id: 16, title: 'Football Turf Action',     category: 'EXPERIENCES', src: 'https://images.unsplash.com/photo-1529900748604-07564a03e7a6?w=600&q=80',  span: '' },
   { id: 17, title: 'Food Court Variety',       category: 'DINING',      src: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80',  span: '' },
@@ -41,7 +41,7 @@ export default function GalleryPage() {
   return (
     <>
       <div className="relative h-[50vh] min-h-[380px] flex items-end overflow-hidden">
-        <Image src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=1920&q=90" alt="MPT Ayodhya Resort Gallery" fill className="object-cover object-center" priority sizes="100vw" />
+        <Image src="https://images.unsplash.com/photo-1587271636175-90d58cdad458?w=1920&q=90" alt="Ayodhya Resort Gallery" fill className="object-cover object-center" priority sizes="100vw" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/30 to-transparent" />
         <div className="absolute top-0 left-0 right-0 h-1" style={{ background: 'linear-gradient(90deg,#FF8C00,#D4AF37,#FF8C00)' }} />
         <div className="relative z-10 container-luxury pb-16">

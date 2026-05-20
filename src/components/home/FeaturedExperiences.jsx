@@ -17,13 +17,13 @@ const experiences = [
   },
   {
     icon: Building2,
-    title: 'Grand Banquet Halls',
-    desc: 'Two magnificent banquet halls, each accommodating 500 guests with state-of-the-art facilities.',
+    title: 'Grand Banquet Hall',
+    desc: 'A magnificent air-conditioned banquet hall accommodating 500 guests with state-of-the-art facilities.',
     href: '/weddings',
     color: 'from-saffron-500/20 to-gold-500/10',
     iconBg: 'bg-saffron-50',
     iconColor: 'text-saffron-600',
-    badge: '2 Halls',
+    badge: '500 Capacity',
   },
   {
     icon: Trees,
@@ -89,7 +89,7 @@ export default function FeaturedExperiences() {
             <span className="shimmer-text">Unforgettable Experience</span>
           </h2>
           <p className="section-subtitle mx-auto text-center">
-            From luxurious accommodations to thrilling activities — MPT Ayodhya Resort offers
+            From luxurious accommodations to thrilling activities — Ayodhya Resort offers
             everything you need for a perfect stay.
           </p>
           <div className="gold-divider mt-6" />

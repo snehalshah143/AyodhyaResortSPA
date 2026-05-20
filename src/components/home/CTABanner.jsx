@@ -37,7 +37,7 @@ export default function CTABanner() {
 
           <p className="text-white/85 text-xl mb-12 max-w-2xl mx-auto leading-relaxed">
             Whether it's a dream wedding, a luxurious stay, or an unforgettable event —
-            MPT Ayodhya Resort is ready to make it perfect.
+            Ayodhya Resort is ready to make it perfect.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">

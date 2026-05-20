@@ -44,27 +44,19 @@ export default function Navbar() {
         <div className="container-luxury">
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
-            <Link href="/" className="flex items-center gap-3 group">
-              <div className={cn(
-                'w-10 h-10 rounded-xl flex items-center justify-center text-white font-bold text-lg transition-all duration-300',
-                'bg-saffron-gradient group-hover:shadow-saffron group-hover:scale-110'
+            <Link href="/" className="flex flex-col items-start leading-none group">
+              <span className={cn(
+                'font-cinzel font-bold text-2xl tracking-tight transition-colors duration-300',
+                isScrolled ? 'text-[#1B4332]' : 'text-white'
               )}>
-                M
-              </div>
-              <div className="flex flex-col">
-                <span className={cn(
-                  'font-serif font-bold text-lg leading-none transition-colors duration-300',
-                  isScrolled ? 'text-resort-900' : 'text-white'
-                )}>
-                  MPT Ayodhya
-                </span>
-                <span className={cn(
-                  'text-xs tracking-widest uppercase transition-colors duration-300',
-                  isScrolled ? 'text-saffron-500' : 'text-saffron-300'
-                )}>
-                  Resort
-                </span>
-              </div>
+                Ayodhya
+              </span>
+              <span className={cn(
+                'font-cinzel font-normal text-[10px] tracking-[0.35em] uppercase transition-colors duration-300',
+                isScrolled ? 'text-[#C9A84C]' : 'text-[#D4AF37]'
+              )}>
+                Resort
+              </span>
             </Link>
 
             {/* Desktop Nav */}

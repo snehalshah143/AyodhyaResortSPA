@@ -9,7 +9,7 @@ const restaurants = [
   {
     id: 1, name: 'Saffron Spice', type: 'Signature AC Restaurant', icon: Wind,
     image: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=900&q=85',
-    desc: "Our flagship fine-dining restaurant offering a curated menu of Indian and Continental cuisine in an elegantly air-conditioned setting. Chef's specials change seasonally to incorporate the freshest local produce.",
+    desc: 'Flagship fine-dining in an elegant AC setting. Seasonal Indian & Continental menu with live music on weekends.',
     cuisine: 'Indian & Continental Fusion', capacity: '120 Covers', hours: '7:00 AM – 11:00 PM',
     specialties: ['Butter Chicken Royale','Dal Makhani Supreme','Grilled Snapper','Biryani Nawabi','Continental Breakfast'],
     features: ['Fine Dining','Private Dining Room','Live Music (Fri & Sat)',"Chef's Table",'Veg & Jain Options'],
@@ -18,7 +18,7 @@ const restaurants = [
   {
     id: 2, name: 'The Garden Terrace', type: 'Outdoor Garden Restaurant', icon: Trees,
     image: 'https://images.unsplash.com/photo-1559339352-11d035aa65de?w=900&q=85',
-    desc: 'A romantic open-air dining experience nestled in the heart of our lush gardens. Dine under the stars as gentle breezes carry the fragrance of flowers.',
+    desc: 'Dine under the stars in our lush garden. Romantic ambiance with live BBQ, Mughlai specials, and fresh garden breezes.',
     cuisine: 'Indian, Mughlai & Barbecue', capacity: '80 Covers', hours: '6:00 PM – 11:00 PM',
     specialties: ['Seekh Kebab Platter','Tandoori Mixed Grill','Mughlai Biryani','Shami Kebab','Live BBQ Station'],
     features: ['Al Fresco Dining','Romantic Lighting','Live BBQ Station','Garden Seating','Open Air'],
@@ -27,7 +27,7 @@ const restaurants = [
   {
     id: 3, name: 'Food Court', type: 'Multi-Cuisine Food Court', icon: UtensilsCrossed,
     image: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=900&q=85',
-    desc: 'A vibrant and lively food court offering a wide variety of cuisines. From South Indian dosas to North Indian chaat, Chinese noodles to Italian pasta — something for everyone.',
+    desc: 'Lively multi-cuisine court with dosas, chaat, noodles, pizza & more. Fast service, family-friendly, 200 covers.',
     cuisine: 'Multi-Cuisine & Fast Food', capacity: '200 Covers', hours: '8:00 AM – 10:00 PM',
     specialties: ['Masala Dosa','Pav Bhaji','Hakka Noodles','Rajasthani Thali','Pizza & Pasta'],
     features: ['Family Friendly','Multiple Counters','Quick Service','Kids Corner','Takeaway Available'],
@@ -36,7 +36,7 @@ const restaurants = [
   {
     id: 4, name: 'Food Plaza', type: 'Outdoor Food Plaza', icon: ShoppingBag,
     image: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=900&q=85',
-    desc: 'Our sprawling outdoor food plaza perfect for large gatherings, events, and casual outdoor dining. Features multiple stalls, street food favorites, and refreshment kiosks.',
+    desc: 'Outdoor plaza with street food stalls, refreshment kiosks, and chaat favorites. Ideal for large gatherings and events.',
     cuisine: 'Street Food, Snacks & Beverages', capacity: '300+ Covers', hours: '9:00 AM – 10:00 PM',
     specialties: ['Bhel Puri & Chaat','Corn & Popcorn','Fresh Fruit Juices','Ice Cream Parlour','Chai & Snacks'],
     features: ['Outdoor Setting','Street Food Favorites','Large Capacity','Event Catering','Self Service'],
@@ -50,7 +50,7 @@ export default function DiningPage() {
   return (
     <>
       <div className="relative h-[60vh] min-h-[420px] flex items-end overflow-hidden">
-        <Image src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1920&q=90" alt="Dining at MPT Ayodhya Resort" fill className="object-cover object-center" priority sizes="100vw" />
+        <Image src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1920&q=90" alt="Dining at Ayodhya Resort" fill className="object-cover object-center" priority sizes="100vw" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/30 to-transparent" />
         <div className="absolute top-0 left-0 right-0 h-1" style={{ background: 'linear-gradient(90deg,#FF8C00,#D4AF37,#FF8C00)' }} />
         <div className="relative z-10 container-luxury pb-16">

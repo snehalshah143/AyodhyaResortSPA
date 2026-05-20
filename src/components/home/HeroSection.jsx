@@ -24,7 +24,7 @@ const slides = [
   },
   {
     id: 2,
-    image: 'https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=1920&q=90',
+    image: 'https://images.unsplash.com/photo-1587271636175-90d58cdad458?w=1920&q=90',
     headline: 'Dream Weddings',
     headline2: 'Made Reality',
     sub: '80,000 SqFt grand wedding lawn for 1000+ guests under the open sky',
@@ -33,7 +33,7 @@ const slides = [
   },
   {
     id: 3,
-    image: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1920&q=90',
+    image: 'https://images.unsplash.com/photo-1758448756167-88dc934c58e4?w=1920&q=90',
     headline: 'Extraordinary',
     headline2: 'Experiences',
     sub: 'Swimming pool, sports turfs, fruit gardens & world-class dining',
@@ -67,7 +67,7 @@ export default function HeroSection() {
         >
           <Image
             src={slide.image}
-            alt={`MPT Ayodhya Resort - ${slide.headline} ${slide.headline2}`}
+            alt={`Ayodhya Resort - ${slide.headline} ${slide.headline2}`}
             fill
             priority={current === 0}
             className="object-cover object-center"

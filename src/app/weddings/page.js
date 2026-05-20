@@ -23,10 +23,9 @@ const schema = z.object({
 });
 
 const venues = [
-  { id: 'wedding-lawn', name: 'Royal Wedding Lawn',  capacity: '1000+ Guests', size: '80,000 SqFt', type: 'Outdoor',   Icon: Trees,     image: 'https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=80' },
-  { id: 'event-lawn',   name: 'Event Lawn',           capacity: '500+ Guests',  size: '40,000 SqFt', type: 'Outdoor',   Icon: Trees,     image: 'https://images.unsplash.com/photo-1529543544282-ea669407fca3?w=800&q=80' },
-  { id: 'banquet1',     name: 'Banquet Hall 1',       capacity: '500 Guests',   size: 'Grand Hall',  type: 'Indoor AC', Icon: Building2, image: 'https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=800&q=80' },
-  { id: 'banquet2',     name: 'Banquet Hall 2',       capacity: '500 Guests',   size: 'Premium Hall',type: 'Indoor AC', Icon: Building2, image: 'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&q=80' },
+  { id: 'wedding-lawn', name: 'Royal Wedding Lawn',  capacity: '1000+ Guests', size: '80,000 SqFt', type: 'Outdoor',   Icon: Trees,     image: 'https://images.unsplash.com/photo-1587271407850-8d438ca9fdf2?w=800&q=80' },
+  { id: 'event-lawn',   name: 'Event Lawn',           capacity: '500+ Guests',  size: '40,000 SqFt', type: 'Outdoor',   Icon: Trees,     image: 'https://images.unsplash.com/photo-1756376748107-12c98ec6b969?w=800&q=80' },
+  { id: 'banquet',      name: 'Banquet Hall',         capacity: '500 Guests',   size: 'Grand Hall',  type: 'Indoor AC', Icon: Building2, image: 'https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=800&q=80' },
 ];
 
 const packages = [
@@ -69,7 +68,7 @@ export default function WeddingsPage() {
 
   const onSubmit = (data) => {
     const venueName = venues.find(v => v.id === selectedVenue)?.name || selectedVenue || 'Not selected';
-    const msg = `Hello! I would like to inquire about a wedding at MPT Ayodhya Resort.
+    const msg = `Hello! I would like to inquire about a wedding at Ayodhya Resort.
 
 Bride: ${data.brideName}
 Groom: ${data.groomName}
@@ -88,7 +87,7 @@ Requirements: ${data.requirements || 'None'}`;
   return (
     <>
       <div className="relative h-[65vh] min-h-[480px] flex items-end overflow-hidden">
-        <Image src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=1920&q=90" alt="Weddings at MPT Ayodhya Resort" fill className="object-cover object-center" priority sizes="100vw" />
+        <Image src="https://images.unsplash.com/photo-1587271636175-90d58cdad458?w=1920&q=90" alt="Weddings at Ayodhya Resort" fill className="object-cover object-center" priority sizes="100vw" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/30 to-black/10" />
         <div className="absolute top-0 left-0 right-0 h-1" style={{ background: 'linear-gradient(90deg,#FF8C00,#D4AF37,#FF8C00)' }} />
         <div className="relative z-10 container-luxury pb-20">
@@ -97,7 +96,7 @@ Requirements: ${data.requirements || 'None'}`;
             <h1 className="font-serif text-5xl md:text-7xl font-bold text-white leading-tight mb-4 drop-shadow-lg">
               Your Dream Wedding,<br /><span className="shimmer-text">Our Masterpiece</span>
             </h1>
-            <p className="text-white/80 text-xl max-w-2xl">Four stunning venues. Unmatched grandeur. Memories that last forever.</p>
+            <p className="text-white/80 text-xl max-w-2xl">Three stunning venues. Unmatched grandeur. Memories that last forever.</p>
           </motion.div>
         </div>
       </div>
