@@ -4,6 +4,7 @@ import { Toaster } from 'react-hot-toast';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import WhatsAppButton from '@/components/layout/WhatsAppButton';
+import ComingSoonBanner from '@/components/layout/ComingSoonBanner';
 
 const playfair = Playfair_Display({
   subsets: ['latin'],
@@ -48,6 +49,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className={`${playfair.variable} ${inter.variable} ${cinzel.variable}`}>
       <body className="bg-cream-50 antialiased">
         <Navbar />
+        <ComingSoonBanner />
         <main>{children}</main>
         <Footer />
         <WhatsAppButton />
