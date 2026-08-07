@@ -16,17 +16,17 @@ export default function ComingSoonBanner() {
       }}
     >
       <Sparkles className="h-4 w-4 shrink-0 text-yellow-300" />
-      <p className="text-center leading-snug">
+      <p className="text-center leading-snug pr-8 sm:pr-0">
         <span className="font-bold tracking-widest uppercase text-yellow-200 mr-1 text-lg">Coming Soon</span>
         — Ayodhya Resort is opening its doors soon. Stay tuned for something extraordinary!
       </p>
-      <Sparkles className="h-4 w-4 shrink-0 text-yellow-300" />
+      <Sparkles className="h-4 w-4 shrink-0 text-yellow-300 hidden sm:block" />
       <button
         onClick={() => setVisible(false)}
-        className="absolute right-3 top-1/2 -translate-y-1/2 p-1 rounded-full hover:bg-white/20 transition-colors"
+        className="absolute right-2 top-1/2 -translate-y-1/2 p-2 rounded-full hover:bg-white/20 transition-colors"
         aria-label="Dismiss banner"
       >
-        <X className="h-4 w-4" />
+        <X className="h-5 w-5" />
       </button>
     </div>
   );
