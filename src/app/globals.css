@@ -10,11 +10,13 @@
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
   }
 
   body {
     @apply bg-cream-50 text-resort-800 font-sans;
     font-feature-settings: "kern" 1, "liga" 1;
+    overflow-x: hidden;
   }
 
   h1, h2, h3, h4, h5, h6 {
